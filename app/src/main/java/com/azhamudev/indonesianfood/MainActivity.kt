@@ -14,6 +14,7 @@ import org.jetbrains.anko.startActivity
 class MainActivity : AppCompatActivity() {
 
     private var items: MutableList<Item> = mutableListOf()
+    //private var BottomNavigationView:
 
     private fun initData() {
         val name = resources.getStringArray(food_name)
@@ -46,4 +47,5 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
 }
